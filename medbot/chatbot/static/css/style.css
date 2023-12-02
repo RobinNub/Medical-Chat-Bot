@@ -1,0 +1,90 @@
+/* set bg color directly in html file */
+.chatarea{
+  margin-top: 250px;
+}
+
+.ava img{
+    border-radius: 50%;
+}
+.ava p{
+  display: inline;
+  font-family: cursive, sans-serif,Arial;
+}
+.ava{
+  margin-top: 4px;
+}
+.nb{
+  position: fixed;
+  height:50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: whitesmoke;
+}
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(32, 32, 32);
+}
+#ip
+{
+  display: inline;
+  margin-top: 10px;
+  margin-left:120px;
+  width:70%;
+  color:white;
+  font-family: cursive, sans-serif,Arial;
+  background-color:transparent;
+  border: 2px solid rgb(214, 178, 255);
+  border-radius: 15px;
+}
+#ip:focus{
+  border: 0px;
+}
+/* button */
+/* rgb(214, 178, 255) */
+.btn
+{
+  display:inline;
+}
+.btn button
+{
+  height: 35px;
+  width: 35px;
+  /* border: 2px solid rgb(214, 178, 255); */
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-bottom: 8px;
+}
+.btn svg
+{
+  fill: white;
+  /* fill: white; */
+  height: 20px;
+  width: auto;
+  margin-bottom: 4px;
+  border-radius: 50%;
+}
+
+
+/* responsive elements */
+@media screen and (max-width:600px){
+  #ip{
+    margin-top: 10px;
+    margin-left: 50px;
+    width:70%;
+    color:white;
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+  }
+  
+  #ip:focus{
+    border: 0px solid white;
+  }
+}
